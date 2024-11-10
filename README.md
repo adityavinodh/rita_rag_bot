@@ -76,7 +76,7 @@ We welcome contributions! If you'd like to improve RITA, feel free to:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
-For questions or support, please reach out to **your.email@example.com**.
+For questions or support, please reach out to **av364@cornell.edu**.
 
 ---
 
