@@ -19,10 +19,6 @@ Our goal is to **bridge the digital divide**, fostering digital inclusion and en
 - **NVIDIA RIVA** microservices (set up according to [NVIDIA documentation](https://developer.nvidia.com/riva))
 - **API Keys** for access to LlamaIndex and NVIDIA services (provided in `api_keys` file)
 
-### Project Structure
-
-rita_rag_bot/ ├── app.py # Main script to run the RITA bot ├── iphone_16_manual_scraper.py # Script for scraping Apple product manuals (PDF) ├── emanual_scraper.py # Script to extract manuals from web pages (non-PDF) ├── rita_files/ # Supporting files and configurations ├── api_keys/ # API keys (to be filled in by the user) └── README.md # Project documentation
-
 ### Installation & Setup
 1. **Clone the Repository**:
     ```bash
@@ -31,15 +27,20 @@ rita_rag_bot/ ├── app.py # Main script to run the RITA bot ├── iphon
     ```
 
 2. **Upload Files to Google Drive**:
-   - Download the `rita_files` folder and upload it to your Google Drive.
+   - Download the folder and upload it to your personal Google Drive.
 
-3. **Edit Paths and API Keys**:
-   - Open `app.py` and update the paths in **Chunk 3** to point to your Google Drive location.
+3. **Main Notebook**:
+   - Use Google Colab to open the `app.ipynb` notebook.
+  
+4. **Edit Paths and API Keys**:
+   - Update the paths in **Chunk 3** to point to your Google Drive location.
    - Insert your API keys from the `api_keys` file.
-
-4. **Run on Google Colab**:
-   - Open `app.py` in Google Colab.
    - Run all cells to start the RITA bot.
+
+5. **Enable microphone settings on browser**
+    - Once all chunks are run, open the gradio interface using the link.
+    - You may have to change browser preferences to allow microphones input for speech commands.
+    - Enable all popups.
 
 ### Usage
 - **Voice Commands**: Simply speak to RITA for hands-free interaction.
