@@ -2,7 +2,8 @@
 
 RITA is an interactive AI assistant designed to empower **senior citizens** and **visually impaired users** in navigating technology effortlessly. This project leverages state-of-the-art AI capabilities to provide hands-free, voice-activated assistance using both **speech** and **text inputs**. RITA is built on top of powerful technologies like **NVIDIA RIVA** microservices and **Meta’s Llama 3.2-3b Instruct LLM**, making it an accessible, user-friendly solution for those who may find typing challenging or unfamiliar.
 
-[Watch my Demo for the NVIDIA-LlamaIndex Developer Contest here!] (https://www.linkedin.com/posts/adityavinodh1_nvidiadevcontest-llamaindex-activity-7261475523137032193-xTSs?utm_source=share&utm_medium=member_desktop)
+**[Watch my Demo for the NVIDIA-LlamaIndex Developer Contest here!](https://www.linkedin.com/posts/adityavinodh1_nvidiadevcontest-llamaindex-activity-7261475523137032193-xTSs?utm_source=share&utm_medium=member_desktop) **
+
 
 ## Key Features
 - **Speech and Text Interaction**: Supports both voice and text commands for a personalized user experience.
